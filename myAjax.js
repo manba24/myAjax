@@ -44,7 +44,7 @@ function myAjax(opt) {
         };
     }
 }
-//懒载入函数  穿建xmlhttp对象
+//懒载入函数  创建xmlhttp对象
 function createXHR(){
 	if (window.XMLHttpRequest) { 
 		createXHR = function(){
